@@ -1,0 +1,21 @@
+<div>
+  <h1>{{title}}</h1>
+  <h2>This is my html</h2>
+  <h2>sum of {{x}} and {{y}} is {{x+y}}</h2>
+  <h2>product of {{x}} and {{y}} is {{product()}}</h2>
+</div>
+<div>
+  <table>
+    <tr>
+      <td><button type="submit" value=1>1</button></td>
+      <td><button type="submit" value=1>2</button></td>
+      <td><button type="submit" value=1>3</button></td>
+    </tr>
+  </table>
+</div>
+
+<div>
+  fact is {{fact(5)}} <br><br><br>
+  FACTORIAL OF <span><input #num1 type="number" value=0></span> IS <span><input id="num2" type="text" value={{result}}></span>
+  <button type="submit" (click)="fact1(num1.value)">calculate</button>
+</div>
